@@ -1,5 +1,5 @@
 # Simoco UHF Radio Simulator
-A HTML / Java simulator of the Simoco UHF Radiohead for the Victorian State Emergency Service (circa ~2016)
+A HTML / Javascript simulator of the Simoco UHF Radiohead for the Victorian State Emergency Service (circa ~2016)
 
 I am releasing this for prosperity and to demonstrate the efforts I sometimes go to, to do something nice for others. *insert eye roll here*
 This is a very specific training aid, which is not really relevent today (2022). So I don't mind if you use this as a template for your own work.
@@ -11,7 +11,7 @@ Victoria SES operates with three radio bands; (HF, VHF and UHF), with the UHF ba
 
 This simulator was created as a training aid for Victorian State Emergency Services volunteers to familiarise themselves with the Simoco UHF Radiohead and its specific SES programmed functions. The intention was to expand on this simulator to include the Simoco VHF radiohead and the UHF handhelds that were also in use.
 
-The requirements that dicated the code were (at the time) to ensure the highest level of copmatibility with a mix of infrastructure from Windows, Linux, iOS and Android, with the view being to provide the applet as a part of the internal SES 'intranet' (members only). As such, HTML and Java were used, as this fulfilled that requirement and was also in line with requirements for the state controlled website.
+The requirements that dicated the code were (at the time) to ensure the highest level of copmatibility with a mix of infrastructure from Windows, Linux, iOS and Android, with the view being to provide the applet as a part of the internal SES 'intranet' (members only). As such, HTML and Javascript were used, as this fulfilled that requirement and was also in line with requirements for the state controlled website.
 
 After several months of development which included investigation, coding, training/delivery aspects, testing and obtaining feedback the simulator was complete. Then began at least six months (or more?) of bureaucratic back and forth and waiting, until finally it was approved and published for all members of the VICSES to access.
 
@@ -28,7 +28,7 @@ The solution had to display dynamic animation and output sound.
 The solution had to be as small in size as possible.
 The solution had to be as simple as possible (allowing for contribution and editing)
 
-Considering the above, the target audience, the target devices and disparity of technology available to SES units (think 10-15 year old computers running linux, Windows XP-10, unit owned & controled, and 'state' owned on a managed domain); HTML and Java was the only choice.
+Considering the above, the target audience, the target devices and disparity of technology available to SES units (think 10-15 year old computers running linux, Windows XP-10, unit owned & controled, and 'state' owned on a managed domain); HTML and Javascript was the only choice.
 
 ### Design process
 In simple terms, the process involved:
