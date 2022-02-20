@@ -1,0 +1,278 @@
+[
+  {
+    "ChannelNumber":"001",
+    "ChannelName":"SES CH 1"
+  },
+  {
+    "ChannelNumber":"002",
+    "ChannelName":"SES CH 2"
+  },
+  {
+    "ChannelNumber":"003",
+    "ChannelName":"SES CH 3"
+  },
+  {
+    "ChannelNumber":"004",
+    "ChannelName":"SES CH 4"
+  },
+  {
+    "ChannelNumber":"005",
+    "ChannelName":"SES CH 5"
+  },
+  {
+    "ChannelNumber":"006",
+    "ChannelName":"SES CH 6"
+  },
+  {
+    "ChannelNumber":"007",
+    "ChannelName":"SES CH 7"
+  },
+  {
+    "ChannelNumber":"008",
+    "ChannelName":"SES CH 8"
+  },
+  {
+    "ChannelNumber":"009",
+    "ChannelName":"SES CH 9"
+  },
+  {
+    "ChannelNumber":"010",
+    "ChannelName":"SES CH 10"
+  },
+  {
+    "ChannelNumber":"011",
+    "ChannelName":"SES CH 11"
+  },
+  {
+    "ChannelNumber":"012",
+    "ChannelName":"SES CH 12"
+  },
+  {
+    "ChannelNumber":"013",
+    "ChannelName":"SES CH 13"
+  },
+  {
+    "ChannelNumber":"014",
+    "ChannelName":"SES CH 14"
+  },
+  {
+    "ChannelNumber":"015",
+    "ChannelName":"SES CH 15"
+  },
+  {
+    "ChannelNumber":"016",
+    "ChannelName":"SES SIMP 1"
+  },
+  {
+    "ChannelNumber":"017",
+    "ChannelName":"SES SIMP 2"
+  },
+  {
+    "ChannelNumber":"018",
+    "ChannelName":"SES SIMP 3"
+  },
+  {
+    "ChannelNumber":"019",
+    "ChannelName":"SES SIMP 4"
+  },
+  {
+    "ChannelNumber":"020",
+    "ChannelName":"SES SIMP 5"
+  },
+  {
+    "ChannelNumber":"021",
+    "ChannelName":"SES SIMP 6"
+  },
+  {
+    "ChannelNumber":"022",
+    "ChannelName":"SES SIMP 7"
+  },
+  {
+    "ChannelNumber":"023",
+    "ChannelName":"SES SIMP 8"
+  },
+  {
+    "ChannelNumber":"024",
+    "ChannelName":"SES SIMP 9"
+  },
+  {
+    "ChannelNumber":"025",
+    "ChannelName":"SES SIMP 10"
+  },
+  {
+    "ChannelNumber":"026",
+    "ChannelName":"IVR CH 1"
+  },
+  {
+    "ChannelNumber":"027",
+    "ChannelName":"IVR CH 2"
+  },
+  {
+    "ChannelNumber":"028",
+    "ChannelName":"IVR CH 3"
+  },
+  {
+    "ChannelNumber":"029",
+    "ChannelName":"IVR CH 4"
+  },
+  {
+    "ChannelNumber":"030",
+    "ChannelName":"CB CH 1"
+  },
+  {
+    "ChannelNumber":"031",
+    "ChannelName":"CB CH 2"
+  },
+  {
+    "ChannelNumber":"032",
+    "ChannelName":"CB CH 3"
+  },
+  {
+    "ChannelNumber":"033",
+    "ChannelName":"CB CH 4"
+  },
+  {
+    "ChannelNumber":"034",
+    "ChannelName":"CB CH 5"
+  },
+  {
+    "ChannelNumber":"035",
+    "ChannelName":"CB CH 6"
+  },
+  {
+    "ChannelNumber":"036",
+    "ChannelName":"CB CH 7"
+  },
+  {
+    "ChannelNumber":"037",
+    "ChannelName":"CB CH 8"
+  },
+  {
+    "ChannelNumber":"038",
+    "ChannelName":"CB CH 9"
+  },
+  {
+    "ChannelNumber":"039",
+    "ChannelName":"CB CH 10"
+  },
+  {
+    "ChannelNumber":"040",
+    "ChannelName":"CB CH 11"
+  },
+  {
+    "ChannelNumber":"041",
+    "ChannelName":"CB CH 12"
+  },
+  {
+    "ChannelNumber":"042",
+    "ChannelName":"CB CH 13"
+  },
+  {
+    "ChannelNumber":"043",
+    "ChannelName":"CB CH 14"
+  },
+  {
+    "ChannelNumber":"044",
+    "ChannelName":"CB CH 15"
+  },
+  {
+    "ChannelNumber":"045",
+    "ChannelName":"CB CH 16"
+  },
+  {
+    "ChannelNumber":"046",
+    "ChannelName":"CB CH 17"
+  },
+  {
+    "ChannelNumber":"047",
+    "ChannelName":"CB CH 18"
+  },
+  {
+    "ChannelNumber":"048",
+    "ChannelName":"CB CH 19"
+  },
+  {
+    "ChannelNumber":"049",
+    "ChannelName":"CB CH 20"
+  },
+  {
+    "ChannelNumber":"050",
+    "ChannelName":"CB CH 21"
+  },
+  {
+    "ChannelNumber":"051",
+    "ChannelName":"CB CH 22"
+  },
+  {
+    "ChannelNumber":"052",
+    "ChannelName":"CB CH 23"
+  },
+  {
+    "ChannelNumber":"053",
+    "ChannelName":"CB CH 24"
+  },
+  {
+    "ChannelNumber":"054",
+    "ChannelName":"CB CH 25"
+  },
+  {
+    "ChannelNumber":"055",
+    "ChannelName":"CB CH 26"
+  },
+  {
+    "ChannelNumber":"056",
+    "ChannelName":"CB CH 27"
+  },
+  {
+    "ChannelNumber":"057",
+    "ChannelName":"CB CH 28"
+  },
+  {
+    "ChannelNumber":"058",
+    "ChannelName":"CB CH 29"
+  },
+  {
+    "ChannelNumber":"059",
+    "ChannelName":"CB CH 30"
+  },
+  {
+    "ChannelNumber":"060",
+    "ChannelName":"CB CH 31"
+  },
+  {
+    "ChannelNumber":"061",
+    "ChannelName":"CB CH 32"
+  },
+  {
+    "ChannelNumber":"062",
+    "ChannelName":"CB CH 33"
+  },
+  {
+    "ChannelNumber":"063",
+    "ChannelName":"CB CH 34"
+  },
+  {
+    "ChannelNumber":"064",
+    "ChannelName":"CB CH 35"
+  },
+  {
+    "ChannelNumber":"065",
+    "ChannelName":"CB CH 36"
+  },
+  {
+    "ChannelNumber":"066",
+    "ChannelName":"CB CH 37"
+  },
+  {
+    "ChannelNumber":"067",
+    "ChannelName":"CB CH 38"
+  },
+  {
+    "ChannelNumber":"068",
+    "ChannelName":"CB CH 39"
+  },
+  {
+    "ChannelNumber":"069",
+    "ChannelName":"CB CH 40"
+  }
+]

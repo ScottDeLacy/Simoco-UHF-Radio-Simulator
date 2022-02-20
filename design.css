@@ -1,0 +1,724 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+p {
+	color:black;
+}
+
+.round {
+border-radius: 20px; -webkit-border-radius: 20px; -moz-border-radius: 20px;
+}
+
+/* Layout frames */
+#groupcontainer {
+	width:100%;
+	height:auto;
+	vertical-align:middle;
+	/*background:none;*/
+}
+
+#radioheadContainer {
+	
+	vertical-align: middle;
+	display: block;
+	height: inherit;
+	width: inherit;
+	/*background:none;*/
+	
+}
+
+#overlaycontainer {
+	height:240px;
+	width: 770px;
+	float:left;
+	position:relative;
+	top:45px;
+	
+}
+
+
+#leftcontainer {
+	width: 115px;
+	height: 210px;
+	float:left;
+	display:block;
+	}
+
+#lcdcontainer {
+	height: 200px;
+	width: 295px;
+	overflow: visible;
+	visibility: visible;
+	position: relative;
+	float:left;	
+	
+	}
+
+#functionbuttoncontainer {
+	height: 200px;
+	width: 50px;
+	float: left;
+	position:relative;
+	left:20px;
+	/*background:none;*/
+	}
+
+#actionbuttoncontainer {
+	float:left;
+	height: 200px;
+	width: 100px;
+	position:relative;
+	left:30px;
+	}
+
+#numberpadcontainer {
+	height: 200px;
+	width: 180px;
+	float: left;
+	display: block;
+	/*background:none;*/
+	position:relative;
+	left:40px;
+	top:2px;
+	
+}
+	
+#radioheadbackground {
+			background-image:url(images/ControlHeadGrey.jpg);        
+            display:block;
+            width:825px;
+          	height:305px;
+            border:0px;
+
+}
+
+#indicatorlight {
+    float: left;
+    position: relative;
+    left: 64px;
+    width: 11px;
+    height: 13px;
+    overflow: hidden;
+    background-color: yellow;
+    border-radius: 20px;
+    opacity: 0.6;
+	display: none;
+}
+
+
+#volumeknob {
+	float: left;
+	width: 90px;
+	height: 85px;
+	position:relative;
+	left:20px;
+	top:10px;
+	
+}
+
+#simoco {
+	float:left;
+	width:70px;
+	height:30px;
+	position:relative;
+	top:20px;
+	left:40px;
+}
+
+
+#duress {
+	width: 70px;
+	height: 50px;
+	left: 35px;
+	top: 40px;
+	float:left;
+	position:relative;
+}
+
+#lcdbackground {
+	height: 185px;
+	width: 269px;
+	overflow: visible;
+	visibility: visible;
+	position: relative;
+	float:left;
+	left:25px;
+	top: 11px;
+	/* For old browsers
+    background-color:#DBFDFB;*/
+   background-color: rgba(15, 108, 120, 1);
+	color:black;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#lcd {
+	height: 185px;
+	width: 269px;
+	overflow: visible;
+	visibility: visible;
+	position: relative;
+	float:left;
+	left:26px;
+	top: 11px;
+	/* For old browsers
+    background-color:#DBFDFB;
+    background-color:rgba(219, 253, 251, 1);
+    background-color:rgba(134, 195, 164, 1); Green, disabled in ID class for use in class colours*/
+    color:black;
+	/* round the corners of the LCD into the corner bezel */
+	font-family:Arial, Helvetica, sans-serif;
+	border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	-moz-border-radius: 5px;
+}
+
+.lcdgreen { background-color: rgba(134, 195, 164, 1); }
+.lcdblue { background-color:rgba(219, 253, 251, 1); }
+.lcdbluebright { background-color:rgba(219, 253, 251, 0.8); }
+.lcdbluedark { background-color:rgba(184, 230, 230, 1); }
+/* colours
+ turned off, green
+rgb(130, 155, 82)  - closest - THIS IS THE ONE
+rgb(117, 140, 74) - closest # 2
+
+more visually appealing?
+rgb(71, 163, 117) dark
+rgb(134, 195, 164) light
+
+blue dark
+rgb(184, 230, 230)   
+    */
+
+
+/* Channel Mode Container and elements.
+    #ChannelMode = Container for all elements to easily turn on/off channel mode display
+    Note: Hidden by default untill powered on!
+    #ChannelNumber = Displays Channel ID
+    #ChannelName = Channels Display Label
+    #Scan = F1 soft button, scan function */
+
+#ChannelMode {
+    height: 185px;
+	width: 269px;
+	overflow: visible;
+	visibility:visible;
+	position: relative;
+	float:left;
+/*	left:25px;
+	top: 11px;  Not needed with container */
+	display:none;
+	color:black;
+	font-family:Arial, Helvetica, sans-serif;
+
+}
+
+
+#ChannelNumber {
+	float:left;
+	display:block;
+	position:relative;
+	padding:5px;
+	height:50px;
+	width:80px;
+	text-align:left;
+	vertical-align:text-top;
+	font-size:32px;
+}
+
+#speaker {
+    float:left;
+	display:none;
+	position:relative;
+	padding:1px;
+	height:50px;
+	width:30px;
+	text-align:left;
+	vertical-align:text-top;
+	font-size:58px;
+    top:-10px;
+}
+
+#scan {
+	float:right;
+	display:block;
+	position:relative;
+	height:50px;
+	width:100px;
+	padding:5px;
+	text-align:right;
+	vertical-align:text-top;
+	font-size:24px;
+	}
+
+#ChannelName {
+	float:left;
+	display:block;
+	position:relative;
+	height:80px;
+	width:auto;
+	text-align:left;
+	padding:5px;
+	font-size:40px;
+}
+
+#dialed {
+	float:right;
+	display:block;
+	position:relative;
+	height:50px;
+	width:100px;
+	padding:5px;
+	text-align:right;
+	vertical-align:text-top;
+	font-size:24px;
+	bottom:30px;
+	right:40px;
+	/* Temporary handler for overflow of text so it doesnt spill outside LCD */
+	overflow:hidden;
+    text-overflow:ellipsis;
+	
+}
+
+#signal {
+    position:relative;
+    width:100px;
+    height:auto;
+    padding:5px;
+    display:none;
+    bottom:5px;
+    left:5px;
+}
+
+#signal img {
+    width:100px;
+    height:auto;
+
+}
+
+/* Scanning mode */
+#scanmode {
+	height: 185px;
+	width: 269px;
+	overflow: visible;
+	visibility:visible;
+	position: relative;
+	float:left;
+	display:none;
+	/*display:block;*/
+	color:black;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#scanaarow {
+	float:left;
+	position:relative;
+	width:60px;
+	height:60px;
+	left:100px;
+    top:5px;
+}
+
+#scanaarow img {
+    width:20%;
+    height: auto;
+}
+
+#scanexit {
+	float:right;
+	display:block;
+	position:relative;
+	height:50px;
+	width:50px;
+	padding:5px;
+	text-align:right;
+	vertical-align:text-top;
+	font-size:24px;
+}
+
+#scantype {
+	float:left;
+	display:block;
+	position:relative;
+	height:40px;
+	width:220px;
+	left:7px;
+	text-align:left;
+	padding:5px;
+	font-size:30px;
+}
+
+#scanning {
+	width:80px;
+	height:40px;
+	position:relative;
+	float:left;
+	display:block;
+	padding:5px;
+	top:0px;
+	left:7px;
+	text-align:left;
+	font-size:25px;
+}
+
+
+/* Power on Container and Element
+    When the unit is powered on this is toggled to be displayed
+    #greeting = boot screen greeting element */
+#poweron {
+    height: 185px;
+	width: 269px;
+	overflow: visible;
+	visibility:visible;
+	position: relative;
+	float:left;
+/*	left:25px;
+	top: 11px;  Not needed with container */
+	display:none;
+	color:black;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#greeting {
+    float:left;
+	position:relative;
+	height:80px;
+	width:auto;
+	text-align:left;
+	padding:5px;
+	font-size:35px;
+    top:30%;
+    display:block;
+}
+
+/* Power off screen*/
+#poweroff {
+    height: 185px;
+	width: 269px;
+	overflow: visible;
+	visibility:visible;
+	position: relative;
+	float:left;
+/*	left:25px;
+	top: 11px;  Not needed with container */
+	display:none;
+	color:black;
+	font-family:Arial, Helvetica, sans-serif;
+
+}
+#shutdown {
+    float:left;
+	position:relative;
+	height:80px;
+	width:auto;
+	text-align:left;
+	padding:5px;
+	font-size:40px;
+    display:block;
+}
+
+/* Menu Mode
+    Allow toggling between channel/menu mode easily
+    #menumode = element group container */
+#menumode {
+    height: 185px;
+	width: 269px;
+	overflow: visible;
+	visibility:visible;
+	position: relative;
+	float:left;
+/*	left:25px;
+	top: 11px;  Not needed with container */
+	display:none;
+	/*display:block;*/
+	color:black;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#menutitle {
+	width: 245px;
+	height: 23px;
+	position:relative;
+	left:7px;
+	vertical-align:middle;
+	padding:5px;
+	text-align:left;
+	border-bottom-style:solid;
+	
+	border-bottom-color:#000;
+	font-size:28px;
+}
+
+#menuitem {
+	float:left;
+	display:block;
+	position:relative;
+	left:7px;
+	top:20px;
+	height:45px;
+	width:220px;
+	text-align:left;
+	padding:5px;
+	font-size:40px;
+	
+}
+
+#menuvalue {
+	width:80px;
+	height:40px;
+	position:relative;
+	float:left;
+	display:block;
+	padding:5px;
+	top:20px;
+	left:7px;
+	text-align:left;
+	font-size:35px;
+    
+}
+
+#menualter {
+	float:right;
+	display:block;
+	position:relative;
+	height:25px;
+	width:65px;
+	padding:5px;
+	text-align:right;
+	vertical-align:text-top;
+	font-size:24px;
+	top:55px;
+	
+}
+	
+  
+#f1,#f2,#f3,#f4 {
+	color:#FFF;
+	text-align:center;
+	vertical-align:middle;
+	
+}
+#f1 {
+	height: 40px;
+	width: 45px;
+	display: block;
+	float: left;
+	position: relative;
+	left: 2px;
+	top: 10px;
+
+}
+#f2 {
+	height: 40px;
+	width: 45px;
+	display: block;
+	position: relative;
+	float:left;
+	left: 2px;
+	top: 20px;
+
+	}
+#f3 {
+	height: 40px;
+	width: 45px;
+	display: block;
+	/*float: top;*/
+	position: relative;
+	float:left;
+	left: 2px;
+	top: 25px;
+
+	}
+#f4 {
+	height: 40px;
+	width: 45px;
+	display: block;
+	position: relative;
+	float:left;
+	left: 2px;
+	top: 35px;
+
+	}
+	
+	
+#answer {
+	top: 17px;
+	left: 15px;
+	display: block;
+	height: 30px;
+	width: 75px;
+	position: relative;
+	color:#FFF;
+	text-align:center;
+	vertical-align:middle;
+
+	}
+	
+#dpad {
+	top: 27px;
+	left: 5px;
+	display: block;
+	height: 90px;
+	width: 92px;
+	position: relative;
+	color:#FFF;
+	text-align:center;
+	vertical-align:middle;
+
+	}
+#dpad td {
+	min-width:30px;
+	min-height:20px;
+	border-collapse:separate;
+	empty-cells:hide;
+	padding:5px 0px 1px 0px;
+/*	border:outset 1px; 
+	border-color:#FF0;*/
+	vertical-align:middle;
+	text-align:left;
+	overflow:hidden;
+}
+
+	
+#hangup {
+	top: 40px;
+	left: 15px;
+	display: block;
+	height: 30px;
+	width: 75px;
+	position: relative;
+	color:#FFF;
+	text-align:center;
+	vertical-align:middle;
+	
+	}
+           
+#numpad {
+
+	height: 205px;
+	width: 165px;
+	float: left;
+	left:15px;
+	display: block;
+	position: relative;
+	text-align:center;
+	
+}
+           
+.numbpad td, tr {
+	color:white;
+/*	border:double #FF0;
+	padding:5px 15px; */
+	height:30px;
+	width:50px;
+	border-collapse:separate;
+	border-spacing:45px;
+	text-align:center;
+	vertical-align:middle;
+	padding:10px 2px 8px 0px;
+	
+
+	
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.controlcursor {
+    cursor:pointer;
+}
+
+.hidecursor {
+    cursor:none;
+}
+
+#easteregg {
+	height: 185px;
+	width: 269px;
+	overflow: visible;
+	visibility:visible;
+	position: relative;
+	float:left;
+	display:none;
+	color:black;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.eggconsole {
+	float:left;
+	position:relative;
+	font-size:16px;
+	padding:3px;
+	font-stretch:narrower;
+    line-height:14px;
+}
+
+#microphonecontainer {
+	width:25%; 
+	position:relative;
+	vertical-align:middle;
+	padding:5px;
+	top:0px;
+	left:100%;
+	/* Not sure why, but have to use left:100% to push the element container next to radiohead container. otherwise left "60" looks ok in dreamweaver
+	but renders on top of the radiohead in IE */
+	
+}
+
+#microphone {
+	background-image:url(images/microphone.jpg);
+	position:relative;
+	width: 149px;
+	height: 305px;
+	vertical-align:middle;	
+	top:0px;
+}
+
+#ptt {
+	position:relative;
+	width:20px;
+	height:60px;
+	top:50px;
+	left:4px;
+}
+
+#micduress {
+    position:relative;
+	width:35px;
+	height:10px;
+	top:1px;
+	left:80px;
+}
+
+#console {
+	display:block;
+    position:relative;
+	width:75%;
+	min-height:100px;
+    top:50px;
+    left:20px;
+    padding:10px;
+    border:inset;
+    border-color:red;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+background: rgb(252,255,244);
+background: -moz-linear-gradient(top,  rgba(252,255,244,1) 0%, rgba(233,233,206,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,255,244,1)), color-stop(100%,rgba(233,233,206,1)));
+background: -webkit-linear-gradient(top,  rgba(252,255,244,1) 0%,rgba(233,233,206,1) 100%);
+background: -o-linear-gradient(top,  rgba(252,255,244,1) 0%,rgba(233,233,206,1) 100%);
+background: -ms-linear-gradient(top,  rgba(252,255,244,1) 0%,rgba(233,233,206,1) 100%);
+background: linear-gradient(to bottom,  rgba(252,255,244,1) 0%,rgba(233,233,206,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#e9e9ce',GradientType=0 );
+
+
+	
+
+}

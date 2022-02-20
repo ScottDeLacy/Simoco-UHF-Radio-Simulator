@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>SES LHQ UHF Radio</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="stylesheet" type="text/css" href="design.css">
+    <script src="jquery-2.1.4.min.js"></script>
+    <script src="jquery.mobile.mobile.min.js"></script>
+    <script src="jquery.doubletap.js"></script>
+    <script src="jQueryRotate.js"></script>
+   <script src="UHF.js"></script> 
+</head>
+<body>
+
+    <div id=groupcontainer>
+
+
+        <div id="radioheadContainer">
+            <div id="radioheadbackground">
+                <!-- <p>background of radiohead here</p>-->
+                <div id=overlaycontainer class="noselect controlcursor">
+                    <div id=leftcontainer>
+                        <div id=indicatorlight></div>
+                        <div id=volumeknob></div>
+                        <div id="simoco"></div>
+                        <div id=duress></div>
+                    </div>
+                    <div id=lcdcontainer>
+                        <!-- <div id="lcdbackground"></div> -->
+                        <div id=lcd class="lcdgreen">
+
+                            <!--Channel Mode Container-->
+                            <div id="ChannelMode">
+                                <div id="ChannelNumber">1</div><div id="speaker"><!--webdings font removed, not compatible with safari/ios: <b><span style="font-family:Webdings">&#88;</span></b> --></div><div id="scan">Scan</div><div id="ChannelName">SES CH1</div><div id="dialed"></div><div id="signal"><img src="images/signalmeter.gif" alt="signal meter" /></div>
+                            </div>
+                            <!--Scanning Mode Container-->
+                            <div id="scanmode">
+                                <div id="scanaarow"><img src="images/arrowup.gif" id="aarow" alt="Arrow"></div><div id="scanexit">Exit</div><div id="scantype">Scan SES</div><div id="scanning">Scanning</div>
+                            </div>
+                            <!--Menu Mode Container-->
+                            <div id="menumode">
+                                <div id="menutitle"></div><div id="menuitem"></div><div id="menuvalue"></div><div id="menualter"></div>
+                            </div>
+                            <!--poweron Container-->
+                            <div id="poweron"><div id="greeting">UHF Conv2.0</div></div>
+                            <!--poweroff Container-->
+                            <div id="poweroff"><div id="shutdown"></div></div>
+                            <!--EasterEgg Container-->
+                            <div id="easteregg">
+                                <div id="evtitle" class="eggconsole"><p><b>SES UHF LHQ Radio</b><p></p></div>
+                                <div id="eversion" class="eggconsole"><p>Version 1.1</p></div>
+                                <div id="eauthor" class="eggconsole"><p>Created by Scott De Lacy, scott.delacy@members.ses.vic.gov.au</p></div>
+                                <div id="ecomments" class="eggconsole"><p><span style="font-family:Webdings">&#105;</span> Simulation of the LHQ radio is for training and education purposes only.</p></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id=functionbuttoncontainer>
+                        <div id=f1></div>
+                        <div id=f2></div>
+                        <div id=f3></div>
+                        <div id=f4></div>
+                    </div>
+                    <div id=actionbuttoncontainer>
+                        <div id=answer></div>
+                        <div id=dpad>
+                            <table class='dpad'>
+                                <tr>
+                                    <td></td>
+                                    <td id="up"></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td id="left"></td>
+                                    <td></td>
+                                    <td id="right"></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td id="down"></td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div id=hangup></div>
+                    </div>
+                    <div id=numberpadcontainer>
+                        <div id=numpad class=numbpad>
+                            <table id="numbers">
+                                <tr>
+                                    <td id="1"></td>
+                                    <td id="2"></td>
+                                    <td id="3"></td>
+                                </tr>
+                                <tr>
+                                    <td id="4"></td>
+                                    <td id="5"></td>
+                                    <td id="6"></td>
+                                </tr>
+                                <tr>
+                                    <td id="7"></td>
+                                    <td id="8"></td>
+                                    <td id="9"></td>
+                                </tr>
+                                <tr>
+                                    <td id="*"></td>
+                                    <td id="0"></td>
+                                    <td id="#"></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div><!-- End of radiohead / 2nd half -->
+                <div id="microphonecontainer" class="controlcursor noselect"><div id="microphone"><div id="micduress"></div><div id="ptt"></div></div></div>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <audio id="KeyBeep"><source src="audio/RadioKeyBeep1480hz.wav" type="audio/wav"></audio>
+    <audio id="Bip"><source src="audio/RadioBip880hz.wav" type="audio/wav"></audio>
+    <audio id="ErrorTone"><source src="audio/RadioErrorTone440hz.wav" type="audio/wav"></audio>
+    <audio id="BipAlert"><source src="audio/RadioBipAlert880hz.wav" type="audio/wav"></audio>
+    <audio id="BipLongAlert"><source src="audio/RadioLongBipAlert880hz.wav" type="audio/wav"></audio>
+    <audio id="UrgentAlert"><source src="audio/RadioUrgentAlert440hz.wav" type="audio/wav"></audio>
+    <audio id="Beep"><source src="audio/RadioBeep1500hz.wav" type="audio/wav"></audio>
+    <audio id="receive"><source src="audio/RadioReceive.wav" type="audio/wav"></audio>
+
+
+    <div id="console"></div>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+[
+  {
+		"menutype":"User Options", 
+		"menutitle":"User Options",
+		"functionname":"Key beeps",
+		"mainvalue":"Key beeps", 
+		"subvalue": [
+					"On",
+					"Off"
+						],
+		"altervalue":"Alter",
+		"currentvalue":"0"
+					
+  },
+  {
+		"menutype":"User Options",
+		"menutitle":"User Options",
+		"functionname":"Backlight",
+		"mainvalue":"Backlight", 
+		"subvalue": [
+					"On",
+					"Off"
+						],
+		"altervalue":"Alter",
+		"currentvalue":"0"
+					
+  },
+  {
+		"menutype":"User Options",
+		"menutitle":"User Options",
+		"functionname":"DTMF",
+		"mainvalue":"DTMF", 
+		"subvalue": 	[
+						"On",
+						"Off"
+						],				
+		"altervalue":"Alter",
+		"currentvalue":"0"
+					
+  },
+  {
+		"menutype":"User Options",
+		"menutitle":"User Options",
+		"functionname":"Dual Watch",
+		"mainvalue":"Dual Watch",
+		"subvalue":		[
+						"On",
+						"Off"
+							],
+		"altervalue":"Alter",
+		"currentvalue":"0"
+					
+  }
+]
