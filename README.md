@@ -85,9 +85,11 @@ Repeating the cycle over and over and eventually once completed, it went through
 ## How to use
 Clone the entire repo and place in a single folder. Host the entire folder on your webhost or open up one of the HTML files locally.
 
-##It doesn't work
+## It doesn't work
 Yes it does. But likely Java has deprecated something and could be complaining. 
 It is old code, so you can fix it if you want or try another browser or even spin up a virtual environment with older browser and java on it.
+
+Audio is a funny thing.. because the audio files are short in duration, some browsers cant handle that now days. sad. Wait a minute or two and hit refresh and try... ;)
 
 At the time of writing this, I tested this in the latest version of Firefox and it is partially bugged, so oh well.
 I assure you it worked flawlessly at the time.
