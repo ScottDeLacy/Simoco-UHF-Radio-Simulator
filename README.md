@@ -4,6 +4,8 @@ A HTML / Java simulator of the Simoco UHF Radiohead for the Victorian State Emer
 I am releasing this for prosperity and to demonstrate the efforts I sometimes go to, to do something nice for others. *insert eye roll here*
 This is a very specific training aid, which is not really relevent today (2022). So I don't mind if you use this as a template for your own work.
 
+This is the final release that I have on hand, I think... There may likely have been some small changes to the online version that was on the SES intranet, but the core functionality remains unchanged.
+
 ## Background history
 Victoria SES operates with three radio bands; (HF, VHF and UHF), with the UHF band being primarilly used for local communications. 
 
