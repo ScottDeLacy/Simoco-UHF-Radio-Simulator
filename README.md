@@ -36,6 +36,7 @@ In simple terms, the process involved:
 3. Content building
 4. 'Framing' & styling
 5. Validation, Testing & Feedback
+###
 
 1. Research
 First thing was to see what information was available on the Simoco headunit. I obtained the technical manual which also conventiately had the button/beep/squak tones which were fully listed by frequency, pulse and duration. (total life saver really)
